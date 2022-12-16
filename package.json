@@ -14,7 +14,8 @@
     "lint": "eslint . --ext .ts",
     "lint:write": "eslint . --ext .ts --fix",
     "prettier": "prettier --config .prettierrc '**/*.ts'",
-    "prettier:write": "prettier --config .prettierrc '**/*.ts' --write"
+    "prettier:write": "prettier --config .prettierrc '**/*.ts' --write",
+    "lint-staged": "lint-staged"
   },
   "author": "Marcos Molina",
   "license": "ISC",
