@@ -9,8 +9,8 @@
     "noLib": false,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "outDir": ".dist/"
+    "outDir": ".dist/",
+    "strictNullChecks": true
   },
-  "include": ["src/*"],
-  "exclude": ["__tests__/*"],
+  "include": ["src/*","__tests__/**/*"],
 }
