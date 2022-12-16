@@ -11,7 +11,9 @@
     "watch": "tsc --watch",
     "test": "jest",
     "lint": "eslint . --ext .ts",
-    "lint:write": "eslint . --ext .ts --fix"
+    "lint:write": "eslint . --ext .ts --fix",
+    "prettier": "prettier --config .prettierrc '**/*.ts'",
+    "prettier:write": "prettier --config .prettierrc '**/*.ts' --write"
   },
   "author": "Marcos Molina",
   "license": "ISC",
